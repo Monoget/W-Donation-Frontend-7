@@ -1,0 +1,39 @@
+#filters {
+margin:0 auto 20px auto;
+padding:0;
+list-style:none;
+}
+#filters li {
+display:inline-block;
+margin:0 2px 20px 2px;
+font-size:14px;
+text-transform:capitalize
+}
+.gallery-card__fancy h6 {
+font-size:20px
+}
+#filters li span {
+display: block;
+padding:20px 20px;
+margin-bottom:15px;
+text-decoration:none;
+border:solid 2px #ccc;
+cursor: pointer;
+font-weight:700
+}
+#filters li span.active {
+border:solid 2px #fe9722
+}
+
+
+#portfoliolist .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+display:none; margin-bottom:30px
+}
+#portfoliolist .portfolio {
+position:relative;
+height:auto;
+float: inherit;
+}

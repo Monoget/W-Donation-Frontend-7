@@ -1,0 +1,189 @@
+.brk-ic-left-slide {
+position:relative;
+overflow:hidden;
+cursor:pointer
+}
+.brk-ic-left-slide__overlay {
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%
+}
+
+.brk-ic-left-slide__overlay a { width:100%; height:100%; display:block}
+.brk-base-bg-gradient-6-black:hover {background-image: linear-gradient(40deg, rgba(254, 151, 34, 0.85) 0%, rgba(227, 123, 4, 0.28) 100%);}
+
+.brk-ic-left-slide__img {
+display:block;
+position:relative;
+height:318px;
+max-width:none;
+width:-webkit-calc(100% + 50px);
+width:calc(100% + 50px);
+opacity:.95;
+-o-object-fit:cover;
+object-fit:cover
+}
+@media (max-width:767px) {
+.brk-ic-left-slide__img {
+height:auto
+}
+}
+.portfolio-list .brk-ic-left-slide:hover .brk-ic-left-slide__img {
+-webkit-transform:translateX(0);
+transform:translateX(0);
+opacity:1
+}
+.brk-ic-left-slide__wrapper {
+display:-webkit-box;
+display:-webkit-flex;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-webkit-flex-direction:column;
+flex-direction:column;
+position:absolute;
+bottom:0;
+left:0;
+width:-webkit-calc(100% - 80px);
+width:calc(100% - 80px);
+padding:0 29px 26px 25px;
+z-index:2
+}
+.brk-ic-left-slide__wrapper_vertical-line {
+padding-left:31px
+}
+.brk-ic-left-slide__wrapper_vertical-line .brk-ic-left-slide__title {
+padding-top:6px;
+padding-bottom:6px;
+padding-left:25px;
+border-left-width:2px;
+border-left-style:solid
+}
+.brk-ic-left-slide__wrapper_gradient {
+width:auto;
+max-width:100%;
+padding:24px 67px 22px 40px;
+-webkit-clip-path:polygon(0 0, -webkit-calc(100% - 47px) 0, 100% 100%, 0% 100%);
+clip-path:polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%)
+}
+.brk-ic-left-slide__wrapper_btn-left {
+left:auto;
+right:0;
+width:-webkit-calc(100% - 125px);
+width:calc(100% - 125px);
+padding:0 29px 44px 25px
+}
+.brk-ic-left-slide__subtitle {
+color:#fff;
+text-transform:uppercase;
+text-align:left;
+padding-left:6px
+}
+.brk-ic-left-slide__title {
+color:#fff;
+text-align:left
+}
+.brk-ic-left-slide__title .uppercase {
+text-transform:uppercase
+}
+.brk-ic-left-slide__title .letter-spacing--20 {
+letter-spacing:-.02em
+}
+.brk-ic-left-slide__title .letter-spacing--60 {
+letter-spacing:-.06em
+}
+.brk-ic-left-slide__btn {
+position:absolute!important;
+bottom:19px;
+right:20px
+}
+.brk-ic-left-slide__btn i {
+margin-left:1px
+}
+.brk-ic-left-slide__btn_left {
+right:auto;
+left:35px;
+bottom:34px
+}
+.portfolio-list {
+min-height:320px;
+display:-webkit-box;
+display:-webkit-flex;
+display:flex;
+border-width:1px;
+border-style:solid;
+border-color:#e8e8e8
+}
+@media (max-width:767px) {
+.portfolio-list {
+-webkit-flex-wrap:wrap;
+flex-wrap:wrap;
+height:auto
+}
+}
+.portfolio-list__about {
+padding:39px 35px 60px 35px;
+position:relative;
+}
+.portfolio-list__about h4 {
+font-size:20px;
+text-transform:uppercase; font-weight:600!important;
+color:#fe9722; font-family: 'Lato', sans-serif;
+}
+.portfolio-list__about h3 {
+text-transform:uppercase; font-weight:900!important;
+color:#000; font-family: 'Lato', sans-serif;
+font-size:1.5rem; margin:10px 0 6px 0; padding:0
+}
+.portfolio-list__about p {
+font-size:15px;
+line-height:28px;
+overflow:hidden;
+min-height:107px;
+}
+@media (max-width:767px) {
+.portfolio-list__about {
+width:100%
+}
+}
+.portfolio-list__title {
+text-transform:uppercase;
+margin-left:-4px;
+margin-bottom:25px;
+color:#1a1b1b
+}
+.portfolio-list__description {
+max-height:105px;
+text-overflow:ellipsis;
+color:#9f9f9f;
+font-size:15px;
+}
+.portfolio-list__more {
+display:inline-block;
+-webkit-box-align:center;
+-webkit-align-items:center;
+align-items:center;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+justify-content:center;
+height:54px; line-height:54px;
+padding-left:1px;
+text-transform:uppercase;
+color:#fff;
+padding:0 50px 0 50px; transition: 0.5s ease-in-out; margin-bottom:10px; font-weight:700
+}
+
+.portfolio-list__more:hover { background:#000; color:#fff} 
+ 
+.portfolio-list__more__icon {
+font-size:21px;
+margin-left:12px;
+margin-bottom:-1px;
+-webkit-transition:.3s ease right;
+transition:.3s ease right;
+position:relative;
+right:0
+}
+ 

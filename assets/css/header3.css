@@ -1,0 +1,95 @@
+/*---------------------------------------
+[Master Stylesheet]
+
+Project: Sakhi Foundation
+Version: 1.0
+Last change: 29/09/2019 
+Assigned to: Srgit
+Primary use: Sakhi Foundation Template  
+---------------------------------------
+[Table of contents]
+
+1. Body / body
+2. Navbar / .navbar
+3. Header / .header
+4. About Us / #about-us 
+4. our achievements/
+5. Our Campaigns / #counter-bg
+6. our volunteers / #our-volunteers
+7. our-partners / .our-partners
+8. slick slider / .slick-slider
+9. newsletter/ #newsletter
+10. footer/ .main-footer
+11. meet-the-team/ #meet-the-team
+12. gallery/ #gallery
+13. Our Charity/ #our-charity
+14. blog/ #blog
+15. events/ #events
+16. blog/ #causes
+17. contact/ #contact
+18. style-css-map / .style.css.map
+---------------------------------------
+
+# [Color codes]
+
+Body-Font:  	#424242 {dark}
+Background:		#ffffff (white)
+Content:		#424242 (light black)
+
+a (standard):	#424242 (black)
+a (visited):	#fe9722 (dark yellow)
+a (active):	 	#fe9722 (dark yellow)
+---------------------------------------
+
+[Font Properties]
+
+Body font:       'Lato', sans-serif
+Headers:         'Lato', sans-serif
+Heading:         'Lato', sans-serif
+Input, textarea: 'DM Serif Display', serif', sans-serif
+
+---------------------------------------*/
+body {
+padding:100px 0 0 0!important;
+}
+.navbar-brand {
+width:210px;
+margin-top:8px
+}
+.top-link li {
+padding:0!important;
+}
+.top-link {
+line-height:35px!important;
+}
+@media (min-width: 992px) {
+#mainNav .nav-link {
+padding: 1.3rem 1.2rem 1.3rem 1.2rem!important;
+}
+#mainNav.navbar-shrink .navbar-brand img {
+width:200px;
+margin:0 0 15px 0!important;
+}
+.navbar-brand {
+float:left
+}
+}
+@media (max-width: 991px) {
+.navbar-nav {
+padding:0!important;
+}
+.navbar-brand {
+margin-top:0!important;
+}
+#mainNav .navbar-brand {
+padding: .9rem 0 0.7rem 0!important;
+}
+}
+@media (max-width:761px) {
+body {
+padding: 60px 0 0 0!important;
+}
+#mainNav .navbar-brand {
+padding:9px 0 0.4rem 0!important;
+}
+}

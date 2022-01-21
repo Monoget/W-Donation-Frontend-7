@@ -1,0 +1,108 @@
+/*---------------------------------------
+[Master Stylesheet]
+
+Project: Sakhi Foundation
+Version: 1.0
+Last change: 29/09/2019 
+Assigned to: Srgit
+Primary use: Sakhi Foundation Template  
+---------------------------------------
+[Table of contents]
+
+1. Body / body
+2. Navbar / .navbar
+3. Header / .header
+4. About Us / #about-us 
+4. our achievements/
+5. Our Campaigns / #counter-bg
+6. our volunteers / #our-volunteers
+7. our-partners / .our-partners
+8. slick slider / .slick-slider
+9. newsletter/ #newsletter
+10. footer/ .main-footer
+11. meet-the-team/ #meet-the-team
+12. gallery/ #gallery
+13. Our Charity/ #our-charity
+14. blog/ #blog
+15. events/ #events
+16. blog/ #causes
+17. contact/ #contact
+18. style-css-map / .style.css.map
+---------------------------------------
+
+# [Color codes]
+
+Body-Font:  	#424242 {dark}
+Background:		#ffffff (white)
+Content:		#424242 (light black)
+
+a (standard):	#424242 (black)
+a (visited):	#fe9722 (dark yellow)
+a (active):	 	#fe9722 (dark yellow)
+---------------------------------------
+
+[Font Properties]
+
+Body font:       'Lato', sans-serif
+Headers:         'Lato', sans-serif
+Heading:         'Lato', sans-serif
+Input, textarea: 'DM Serif Display', serif', sans-serif
+
+---------------------------------------*/
+
+body {
+	padding:100px 0 0 0!important;
+}
+@media (min-width: 767px) {
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+background: #fff;
+padding:10px 0!important;
+}
+}
+@media (min-width: 992px) {
+}
+#mainNav .navbar-brand {
+	padding:0!important;
+}
+.right-icon li i {
+	width:38px!important;
+	height:38px!important;
+	line-height:36px!important;
+	border-radius:100px;
+}
+.logo1 {
+	width:250px;
+	-webkit-transition: width 0.5s;
+}
+.navbar-brand img {
+	-webkit-transition: width 0.5s;
+	width:250px;
+}
+#mainNav.navbar-shrink .navbar-brand img {
+	margin:0!important;
+	-webkit-transition: width 0.5s;
+}
+#mainNav.navbar-shrink .navbar-brand {
+	width:250px;
+	-webkit-transition: width 0.5s;
+}
+#mainNav.navbar-shrink .navbar-brand {
+	width:250px;
+	-webkit-transition: width 0.5s;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+font-size:14px!important
+}
+.right-icon li i {
+	font-size:14px!important
+}
+.right-icon li p {
+	margin:0!important;
+	line-height:20px;
+}
+.right-icon li {
+	padding:0 0 0 51px!important
+}
+.right-icon ul {
+	margin:0!important
+}
